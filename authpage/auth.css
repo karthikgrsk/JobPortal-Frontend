@@ -56,6 +56,19 @@ body {
     border-color: #6a38c2;
 }
 
+.input-group select {
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-group select:focus {
+    border-color: #6a38c2;
+}
+
 .btn {
     width: 100%;
     padding: 0.75rem;
